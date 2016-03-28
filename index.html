@@ -11,16 +11,18 @@
 	<header role="banner">
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
-			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
-			</p>
+
+				<label> <a href="#content">Jump To Content</a></label><br>
+				<label> <a href="#footer">Jump To Footer</a></label><br>
+				<label> <a href="#kitties">Jump To Kitties</a></label><br>
+
 		</div>
 	</header>
 	<main>
+
 		<section>
-			<article>
+
+			<article id="content">
 				Name:<input  type="text"><br>
 				Vorname:<input  type="text"><br>
 				Email:<input  type="email"><br>
@@ -78,9 +80,12 @@
 			</article>
 		</section>
 	</main>
-	<footer>
+	<footer id="footer">
 		<img src="img/nodeschool.svg"/>
 	</footer>
 	<script src="design/index.js"></script>
+<section id="kitties">
+	<img src="gifs/cat.gif"/> <img src="gifs/cat.gif"/>
+</section>
 </body>
 </html>
